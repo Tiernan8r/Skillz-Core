@@ -8,7 +8,7 @@ import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 
-import me.Tiernanator.Skillz.Main;
+import me.Tiernanator.Skillz.SkillzMain;
 import me.Tiernanator.Skillz.Skill.Achievement;
 import me.Tiernanator.Skillz.Skill.Level;
 import me.Tiernanator.Skillz.Skill.PlayerPerk;
@@ -17,9 +17,9 @@ import me.Tiernanator.Skillz.Skill.PlayerSkill;
 public class Commander implements CommandExecutor {
 
 	@SuppressWarnings("unused")
-	private static Main plugin;
+	private static SkillzMain plugin;
 
-	public Commander(Main main) {
+	public Commander(SkillzMain main) {
 		plugin = main;
 	}
 

@@ -13,7 +13,7 @@ import me.Tiernanator.Skillz.Skill.Level;
 import me.Tiernanator.Skillz.Skill.Perk;
 import me.Tiernanator.Skillz.Skill.Skill;
 
-public class Main extends JavaPlugin {
+public class SkillzMain extends JavaPlugin {
 
 	@Override
 	public void onEnable() {

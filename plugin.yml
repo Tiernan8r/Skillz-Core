@@ -1,4 +1,4 @@
-main: me.Tiernanator.Skillz.Main
+main: me.Tiernanator.Skillz.SkillzMain
 version: 2.0
 name: Skillz-Core
 description: Practice makes perfect...

@@ -7,16 +7,16 @@ import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.player.PlayerJoinEvent;
 
-import me.Tiernanator.Skillz.Main;
+import me.Tiernanator.Skillz.SkillzMain;
 import me.Tiernanator.Skillz.Skill.Level;
 import me.Tiernanator.Skillz.Skill.PlayerSkill;
 import me.Tiernanator.Utilities.MetaData.MetaData;
 
 public class OnPlayerJoin implements Listener {
 
-	private static Main plugin;
+	private static SkillzMain plugin;
 
-	public OnPlayerJoin(Main main) {
+	public OnPlayerJoin(SkillzMain main) {
 		plugin = main;
 	}
 

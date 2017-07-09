@@ -10,7 +10,7 @@ import org.bukkit.entity.Player;
 
 import me.Tiernanator.Colours.MessageColourer;
 import me.Tiernanator.File.ConfigAccessor;
-import me.Tiernanator.Skillz.Main;
+import me.Tiernanator.Skillz.SkillzMain;
 import me.Tiernanator.Utilities.MetaData.MetaData;
 
 /**
@@ -19,8 +19,8 @@ import me.Tiernanator.Utilities.MetaData.MetaData;
  */
 public class Level {
 
-	private static Main plugin;
-	public static void setPlugin(Main main) {
+	private static SkillzMain plugin;
+	public static void setPlugin(SkillzMain main) {
 		plugin = main;
 	}
 	

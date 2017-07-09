@@ -9,18 +9,18 @@ import org.bukkit.event.player.PlayerInteractAtEntityEvent;
 import org.bukkit.inventory.Inventory;
 
 import me.Tiernanator.Colours.Colour;
-import me.Tiernanator.Skillz.Main;
+import me.Tiernanator.Skillz.SkillzMain;
 import me.Tiernanator.Utilities.Players.PlayerTime;
 
 public class PlayerInventoryInteract implements Listener {
 
 	@SuppressWarnings("unused")
-	private static Main plugin;
+	private static SkillzMain plugin;
 
 	private ChatColor warning = Colour.WARNING.getColour();
 	private ChatColor highlight = Colour.HIGHLIGHT.getColour();
 	
-	public PlayerInventoryInteract(Main main) {
+	public PlayerInventoryInteract(SkillzMain main) {
 		plugin = main;
 	}
 

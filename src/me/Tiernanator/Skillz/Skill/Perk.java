@@ -10,12 +10,12 @@ import org.bukkit.plugin.java.JavaPlugin;
 
 import me.Tiernanator.Colours.MessageColourer;
 import me.Tiernanator.File.ConfigAccessor;
-import me.Tiernanator.Skillz.Main;
+import me.Tiernanator.Skillz.SkillzMain;
 
 public class Perk {
 
-	private static Main plugin;
-	public static void setPlugin(Main main) {
+	private static SkillzMain plugin;
+	public static void setPlugin(SkillzMain main) {
 		plugin = main;
 	}
 

@@ -8,8 +8,8 @@ import org.bukkit.ChatColor;
 import org.bukkit.entity.Player;
 
 import me.Tiernanator.Packets.Packet;
-import net.minecraft.server.v1_11_R1.IChatBaseComponent.ChatSerializer;
-import net.minecraft.server.v1_11_R1.PacketPlayOutChat;
+import net.minecraft.server.v1_12_R1.IChatBaseComponent.ChatSerializer;
+import net.minecraft.server.v1_12_R1.PacketPlayOutChat;
 
 public class Achievement {
 

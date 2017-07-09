@@ -15,19 +15,19 @@ import me.Tiernanator.Colours.Colour;
 import me.Tiernanator.Menu.Menu;
 import me.Tiernanator.Menu.MenuAction;
 import me.Tiernanator.Menu.MenuEntry;
-import me.Tiernanator.Skillz.Main;
+import me.Tiernanator.Skillz.SkillzMain;
 import me.Tiernanator.Skillz.Skill.Level;
 import me.Tiernanator.Skillz.Skill.PlayerSkill;
 
 public class Skills implements CommandExecutor {
 
 	@SuppressWarnings("unused")
-	private static Main plugin;
+	private static SkillzMain plugin;
 
 	private ChatColor warning = Colour.ALTERNATE_WARNING.getColour();
 	private ChatColor bad = Colour.ALTERNATE_BAD.getColour();
 	
-	public Skills(Main main) {
+	public Skills(SkillzMain main) {
 		plugin = main;
 	}
 
