@@ -1,18 +1,17 @@
 package me.Tiernanator.Skillz.Commands;
 
-import java.util.Arrays;
-import java.util.List;
-
+import me.Tiernanator.Skillz.Skill.Achievement;
+import me.Tiernanator.Skillz.Skill.Level;
+import me.Tiernanator.Skillz.Skill.PlayerPerk;
+import me.Tiernanator.Skillz.Skill.PlayerSkill;
+import me.Tiernanator.Skillz.SkillzMain;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 
-import me.Tiernanator.Skillz.SkillzMain;
-import me.Tiernanator.Skillz.Skill.Achievement;
-import me.Tiernanator.Skillz.Skill.Level;
-import me.Tiernanator.Skillz.Skill.PlayerPerk;
-import me.Tiernanator.Skillz.Skill.PlayerSkill;
+import java.util.Arrays;
+import java.util.List;
 
 public class Commander implements CommandExecutor {
 
@@ -41,7 +40,7 @@ public class Commander implements CommandExecutor {
 		List<PlayerSkill> allPlayerSkills = level.getPlayerSkills();
 		for(PlayerSkill playerSkill : allPlayerSkills) {
 			
-			player.sendMessage(playerSkill.getName() + ":" + playerSkill.getLevel() + "/" + playerSkill.getTotalLevels());
+			player.sendMessage(playerSkill.getName() + ":" + playerSkill.getLevel() + "/" + playerSkill.getMaxLevel());
 			List<PlayerPerk> playerPerks = playerSkill.getPlayerPerks();
 			for(PlayerPerk playerPerk : playerPerks) {
 				

@@ -1,5 +1,8 @@
 package me.Tiernanator.Skillz.Events;
 
+import me.Tiernanator.Skillz.SkillzMain;
+import me.Tiernanator.Utilities.Colours.Colour;
+import me.Tiernanator.Utilities.Players.PlayerTime;
 import org.bukkit.ChatColor;
 import org.bukkit.entity.Entity;
 import org.bukkit.entity.Player;
@@ -7,10 +10,6 @@ import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.player.PlayerInteractAtEntityEvent;
 import org.bukkit.inventory.Inventory;
-
-import me.Tiernanator.Colours.Colour;
-import me.Tiernanator.Skillz.SkillzMain;
-import me.Tiernanator.Utilities.Players.PlayerTime;
 
 public class PlayerInventoryInteract implements Listener {
 

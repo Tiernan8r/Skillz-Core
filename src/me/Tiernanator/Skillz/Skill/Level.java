@@ -3,15 +3,14 @@
  */
 package me.Tiernanator.Skillz.Skill;
 
-import java.util.ArrayList;
-import java.util.List;
-
+import me.Tiernanator.Skillz.SkillzMain;
+import me.Tiernanator.Utilities.Colours.MessageColourer;
+import me.Tiernanator.Utilities.File.ConfigAccessor;
+import me.Tiernanator.Utilities.MetaData.MetaData;
 import org.bukkit.entity.Player;
 
-import me.Tiernanator.Colours.MessageColourer;
-import me.Tiernanator.File.ConfigAccessor;
-import me.Tiernanator.Skillz.SkillzMain;
-import me.Tiernanator.Utilities.MetaData.MetaData;
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  * @author Tiernan

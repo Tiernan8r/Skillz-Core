@@ -1,16 +1,15 @@
 package me.Tiernanator.Skillz.Events;
 
-import java.util.List;
-
+import me.Tiernanator.Skillz.Skill.Level;
+import me.Tiernanator.Skillz.Skill.PlayerSkill;
+import me.Tiernanator.Skillz.SkillzMain;
+import me.Tiernanator.Utilities.MetaData.MetaData;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.player.PlayerJoinEvent;
 
-import me.Tiernanator.Skillz.SkillzMain;
-import me.Tiernanator.Skillz.Skill.Level;
-import me.Tiernanator.Skillz.Skill.PlayerSkill;
-import me.Tiernanator.Utilities.MetaData.MetaData;
+import java.util.List;
 
 public class OnPlayerJoin implements Listener {
 

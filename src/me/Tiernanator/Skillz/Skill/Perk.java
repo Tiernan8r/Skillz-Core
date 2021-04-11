@@ -1,16 +1,15 @@
 package me.Tiernanator.Skillz.Skill;
 
-import java.io.File;
-import java.util.ArrayList;
-import java.util.List;
-
+import me.Tiernanator.Skillz.SkillzMain;
+import me.Tiernanator.Utilities.Colours.MessageColourer;
+import me.Tiernanator.Utilities.File.ConfigAccessor;
 import org.bukkit.ChatColor;
 import org.bukkit.plugin.Plugin;
 import org.bukkit.plugin.java.JavaPlugin;
 
-import me.Tiernanator.Colours.MessageColourer;
-import me.Tiernanator.File.ConfigAccessor;
-import me.Tiernanator.Skillz.SkillzMain;
+import java.io.File;
+import java.util.ArrayList;
+import java.util.List;
 
 public class Perk {
 

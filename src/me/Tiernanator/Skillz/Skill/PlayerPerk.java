@@ -1,9 +1,9 @@
 package me.Tiernanator.Skillz.Skill;
 
+import org.bukkit.entity.Player;
+
 import java.util.ArrayList;
 import java.util.List;
-
-import org.bukkit.entity.Player;
 
 public class PlayerPerk extends Perk {
 	

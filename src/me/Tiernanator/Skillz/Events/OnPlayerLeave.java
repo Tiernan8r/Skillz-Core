@@ -1,12 +1,11 @@
 package me.Tiernanator.Skillz.Events;
 
+import me.Tiernanator.Skillz.Skill.Level;
+import me.Tiernanator.Skillz.SkillzMain;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.player.PlayerQuitEvent;
-
-import me.Tiernanator.Skillz.SkillzMain;
-import me.Tiernanator.Skillz.Skill.Level;
 
 public class OnPlayerLeave implements Listener {
 

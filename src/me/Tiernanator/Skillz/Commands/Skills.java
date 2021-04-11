@@ -1,8 +1,12 @@
 package me.Tiernanator.Skillz.Commands;
 
-import java.util.ArrayList;
-import java.util.List;
-
+import me.Tiernanator.Skillz.Skill.Level;
+import me.Tiernanator.Skillz.Skill.PlayerSkill;
+import me.Tiernanator.Skillz.SkillzMain;
+import me.Tiernanator.Utilities.Colours.Colour;
+import me.Tiernanator.Utilities.Menu.Menu;
+import me.Tiernanator.Utilities.Menu.MenuAction;
+import me.Tiernanator.Utilities.Menu.MenuEntry;
 import org.bukkit.ChatColor;
 import org.bukkit.Material;
 import org.bukkit.command.Command;
@@ -11,13 +15,8 @@ import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 import org.bukkit.inventory.ItemStack;
 
-import me.Tiernanator.Colours.Colour;
-import me.Tiernanator.Menu.Menu;
-import me.Tiernanator.Menu.MenuAction;
-import me.Tiernanator.Menu.MenuEntry;
-import me.Tiernanator.Skillz.SkillzMain;
-import me.Tiernanator.Skillz.Skill.Level;
-import me.Tiernanator.Skillz.Skill.PlayerSkill;
+import java.util.ArrayList;
+import java.util.List;
 
 public class Skills implements CommandExecutor {
 

@@ -7,9 +7,9 @@ import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
 import org.bukkit.entity.Player;
 
-import me.Tiernanator.Packets.Packet;
-import net.minecraft.server.v1_12_R1.IChatBaseComponent.ChatSerializer;
-import net.minecraft.server.v1_12_R1.PacketPlayOutChat;
+import me.Tiernanator.Utilities.Packets.Packet;
+import net.minecraft.server.v1_14_R1.IChatBaseComponent.ChatSerializer;
+import net.minecraft.server.v1_14_R1.PacketPlayOutChat;
 
 public class Achievement {
 
@@ -31,12 +31,12 @@ public class Achievement {
 		
 		this.achievementName = name;
 		this.mainTextColour = Packet.getJsonColour(mainTextColour);
-		this.achievementColour = "§" + achievementColour.getChar();
+		this.achievementColour = "ï¿½" + achievementColour.getChar();
 		this.descriptionTitle = descriptionTitle;
-		this.descriptionTitleColour = "§" + descriptionTitleColour.getChar();
+		this.descriptionTitleColour = "ï¿½" + descriptionTitleColour.getChar();
 		this.lines = lines;
 		this.hoverColour = Packet.getJsonColour(hoverColour);
-		this.descriptionColour = "§" + hoverColour.getChar();
+		this.descriptionColour = "ï¿½" + hoverColour.getChar();
 		this.isBold = Boolean.toString(isBold);
 		this.isItalic = Boolean.toString(isItalic);
 		this.isUnderlined = Boolean.toString(isUnderlined);
@@ -112,7 +112,7 @@ public class Achievement {
 		String descriptionColour = getDescriptionColour();
 		String descriptionTitle = getDescriptionTitle();
 		String titleColour = getDescriptionTitleColour();
-		String hoverText = achievementColour + achievementName + " \n" + titleColour + descriptionTitle + "\n§R";
+		String hoverText = achievementColour + achievementName + " \n" + titleColour + descriptionTitle + "\nï¿½R";
 		hoverText += descriptionColour;
 		for(int i = 0; i < lines.size(); i++) {
 			String line = lines.get(i);
@@ -121,7 +121,7 @@ public class Achievement {
 				hoverText += "\n" + descriptionColour;
 			}
 		}
-//		String hoverText = "§AWHATEVER \n§OAchievement \n§RDo something or other to achieve something or something...";
+//		String hoverText = "ï¿½AWHATEVER \nï¿½OAchievement \nï¿½RDo something or other to achieve something or something...";
 		String hoverColour = getHoverColour();
 		String jsonText = "{\"text\":\"" + mainText + "\"" + "," + "\"clickEvent\"" + 
 		":{\"action\":" + "\"" + "open_url" + "\",\"value\":" + "\"" + "http://google.com" + "\"}," +
